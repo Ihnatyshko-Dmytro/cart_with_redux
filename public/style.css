@@ -1,0 +1,68 @@
+#root {
+  padding-top: 30px;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f1f1f1;
+}
+
+.goods-field::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.goods-block {
+  width: 20%;
+  margin: 1%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgb(100, 100, 100);
+  
+  float: left;
+  text-align: center;
+}
+
+.add-to-cart {
+  border-radius: 10px;
+  background: rgb(184, 183, 183);
+  border: 0;
+  box-shadow: 2px 2px 4px rgb(46, 46, 46);
+}
+
+.add-to-cart:active {
+  box-shadow: 1px 1px 1px black;
+}
+
+.goods-block img {
+  max-width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+
+.miniImg {
+  width: 30px;
+  height: 30px;
+}
+
+
+.deleteGo,
+.minus {
+  margin: 5px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.deleteGo {
+  color: transparent;
+  background: url(/images/delete.svg);
+  background-size: cover;
+}
